@@ -1,17 +1,50 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="primary">
     <ion-title>
-      Tab 1
+     Filmes
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6">
+       <h1> Um dia de chuva em NY</h1>
+       <h2>26 de Julho de 2019</h2>
+       <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/nmlpEQuemz1OMEAVLP5RA8pZUML.jpg"/>
+       <p>Apaixonado por Nova York, Gatsby (Timothée Chalamet) decide passar um fim de semana na cidade ao lado de Ashleigh (Elle Fanning), sua namorada. 
+         No entanto, aquilo que era pra ser uma aventura romântica acaba tomando um rumo inesperado...</p>
+<ion-button expand= "block" fill="outline"> Mais informações...</ion-button>
+      </ion-col>
+      <ion-col size="6">
+        <h1> O homem invisível</h1>
+        <h2>26 de Fevereiro de 2020</h2>
+        <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/bK2ewbrM5UfvOMfnawum3LLTfdv.jpg"/>
+        <p>Refilmagem do clássico de 1933. Na trama, um cientista brilhante descobre como se tornar invisível.
+           Mas sua invenção acaba custando sua sanidade..</p>
+ <ion-button expand= "block" fill="outline"> Mais informações...</ion-button>
+       </ion-col>
+    </ion-row>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+    <ion-row>
+      <ion-col size="6">
+       <h1> Malévola - Dona do Mal</h1>
+       <h2>16 de outubro de 2019</h2>
+       <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/oP3TasnCKqSvGDv0sHLUhpioNVb.jpg"/>
+       <p>Após aceitar se casar com o Príncipe Phillip (Harris Dickinson), Aurora (Elle Fanning) é 
+         imediatamente acolhida pela rainha, sua futura sogra (Michelle Pfeiffer...</p>
+<ion-button expand= "block" fill="outline"> Mais informações...</ion-button>
+      </ion-col>
+      <ion-col size="6">
+        <h1> Coringa</h1>
+        <h2>2 de outubro de 2019</h2>
+        <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/xLxgVxFWvb9hhUyCDDXxRPPnFck.jpg"/>
+        <p>Arthur Fleck (Joaquin Phoenix) trabalha como palhaço para uma agência de talentos e, toda semana, precisa
+           comparecer a uma agente social, devido aos seus conhecidos...</p>
+ <ion-button expand= "block" fill="outline"> Mais informações...</ion-button>
+       </ion-col>
+    </ion-row>
+
+  </ion-grid>
 </ion-content>
